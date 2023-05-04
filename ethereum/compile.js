@@ -3,7 +3,7 @@ const solc = require('solc');
 const fs = require('fs-extra');
 
 
-const buildPath = path.resolve(__dirname, 'build');
+const buildPath = path.resolve(__新の変更を取得し、ローカルのブランチをリモートブランチに合わせて更新します。dirname, 'build');
 fs.removeSync(buildPath);
 
 const campaignPath = path.resolve(__dirname, 'contracts', 'Campaign.sol');
