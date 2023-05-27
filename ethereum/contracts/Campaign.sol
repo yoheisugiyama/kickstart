@@ -101,7 +101,7 @@ contract Campaign {
             minimumContribution,
             this.balance,
             requests.length,
-            appoversCount,
+            approversCount,
             manager
         );
     }
